@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-body{
+    background: rgb(65,184,35);
+    background: linear-gradient(90deg, rgb(182, 184, 35) 0%, rgba(162, 186, 26, 0.322) 35%, rgba(0,212,255,0) 80%);
+    width:80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.container{
+    width: 50%;
+}
+nav {
+    /* background-color: antiquewhite; */
+    margin-top: 60px;
+}
+
+/* nav .button-navigasi{
+    padding: 10px 40px;
+} */
+
+nav .button-navigasi button{
+    background: #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #fff;
+}
+/* NAVIGASI BAR */
+.container-navigasi{
+    /* background-color: rgb(212, 165, 103); */
+    height: 100px;
+}
+
+.container-navigasi ul{
+    list-style: none;
+    padding: 20px 0;
+}
+
+.container-navigasi ul li{
+    float: left;
+    padding: 0 5px;
+}
+
+.container-navigasi ul li a{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #8f9128;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.container-navigasi ul li a:hover{
+    background-color: #fff;
+}
+/* END NAVIGASI BAR */
+
+
+/* KONTENT TEXT */
+.container-kontent{
+    /* background-color: #c770c3; */
+    margin-top: 30px;
+    width: 70%;
+}
+
+.container-kontent h2{
+    margin: 0;
+}
+
+.container-kontent p{
+    margin-top: 30px;
+}
+
+/* END KONTENT TEXT */
+
+/* SMARTPHONE */
+.container-side {
+    width: 40%;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.container-side img{
+    width: 300px;
+}
